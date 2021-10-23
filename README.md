@@ -27,8 +27,8 @@ The value of the Prefix textbox will appear added to the beginning of the genera
 
 The number of digits is usually 6, but as it can be parameterized in the generation algorithm, I made it configurable as well, maybe it will be useful for someone. The same is with the HmacSHA1/HmacSHA256/HmacSHA512 combo box for selecting the crypto algorithm.
 
-If the "Autoclose" checkbox is selected, the program will automatically close itself at the end of the countdown period (if at least 5 seconds have elapsed since start).
-If the "Autocopy" checkbox is selected, the generated value will automatically gets copied to the clipboard, so there's no need to let's say select the value by double clicking and pressing Ctrl+C.
+If the "autoclose" checkbox is selected, the program will automatically close itself at the end of the countdown period (if at least 5 seconds have elapsed since start).
+If the "autocopy" checkbox is selected, the generated value will automatically gets copied to the clipboard, so there's no need to let's say select the value by double clicking and pressing Ctrl+C.
 
 All these settings together with the window position are getting saved in a small configuration file named TinyTOTP.txt into the same directory where the TinyTOTP.jar file resides in.  If there's a need to handle more than one password, you can copy the TinyTOTP.jar into several different directories, and put shortcuts to them on the Desktop.
 
