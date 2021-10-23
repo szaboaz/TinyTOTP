@@ -1,6 +1,6 @@
 # TinyTOTP
 
-TinyTOTP is a small Java application for generating TOTPs (Time-Based One-Time Password) on Windows or Linux Desktop PC.
+TinyTOTP is a small Java application for generating TOTPs (Time-Based One-Time Password) on a Windows or Linux Desktop PC.
 I wrote it for myself for the convenience of simply double clicking on the TinyTOTP jar file and have the generated 6 digit password code automatically copied to the clipboard, so that I can directly paste it in Cisco AnyConnect login's password field. It also works for the  2 factor authentication of the Microsoft Teams account as well as the Google account, as it generates the same password that Microsoft Authenticator or Google Authenticator does.
 
 The TinyTOTP.jar file that is available as a release, is the result of the Maven build process that was run from NetBeans 12.5, although it is recommended, that you review the sources and build it yourself.
