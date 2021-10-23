@@ -23,7 +23,7 @@ After starting it, a small window opens with two tab pages. On the first tab pag
 
 The Base32 encoded "Secret" value is required to be typed in or copied from the text representation of the standard QR code's "secret" value. The resulting 6 digit authentication code starts getting generated every 30 seconds on the "TOTP" tab.
 
-The value of the Prefix textbox will appear added to the beginning of the generated code. This is required by the Cisco Anyconnect client I use, which needs a user identification code (a PIN code, essentially) to prepend the TOTP. This way I can simply paste the whole string in one step.
+The value of the Prefix textbox will appear added to the beginning of the generated code. This is required by the Cisco AnyConnect client I use, which needs a user identification code (a PIN code, essentially) to prepend the TOTP. This way I can simply paste the whole string in one step.
 
 The number of digits is usually 6, but as it can be parameterized in the generation algorithm, I made it configurable as well, maybe it will be useful for someone. The same is with the HmacSHA1/HmacSHA256/HmacSHA512 combo box for selecting the crypto algorithm.
 
