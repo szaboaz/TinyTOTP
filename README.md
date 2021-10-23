@@ -7,7 +7,7 @@ TinyTOTP is a small Java application for generating TOTPs (Time-Based One-Time P
 ## Motivation
 
 I wrote it for myself for the convenience of simply double clicking on the TinyTOTP jar file and have the generated 6 digit password code automatically copied to the clipboard, so that I can directly paste it in Cisco AnyConnect login's password field. It also works for the  2 factor authentication of the Microsoft Teams account as well as the Google account, as it generates the same password that Microsoft Authenticator or Google Authenticator does.
-The main motivation behind this program was that those authenticators are exclusively for mobile (Android or iOS), so I can't run them on Windows, unless in a virtual environment, which works, but takes up too much space and most importantly time to startup every time I need to log in. Running authenticators on a mobile device seems like a hassle as well, to keep it at hand, to start the app, and manually copy the digits over, it will take a minute every time while a simple Copy/Paste takes just a second.
+The main motivation behind this program was that those authenticators are exclusively for mobile (Android or iOS), so I can't run them on Windows, unless in a virtual environment, which works, but takes up too much space and most importantly time to startup every time I need to log in. Running authenticators on a mobile device seems like a hassle as well, to keep it at hand, to start the app, and manually copy the digits over, it will take a minute every time, while a simple Copy/Paste takes just a second.
 
 ## Usage
 
