@@ -8,5 +8,5 @@ The TinyTOTP.jar file that is available as a release, is the result of the Maven
 The program requires Java to run. It was built with version 1.8, but it also runs with 17.0.
 
 After starting it, a small window opens with two tab pages. On the first tab page named "TOTP" you can see the word "Secret?" in place where the generated password will be, indicating that the secret code from the authentication provider needs to be inserted, which can be done on the second tab page named "Settings". 
-The Base32 encoded "Secret" value is required to be typed or pasted in from the text representation of the standard QR code's "secret" value. The 6 digit code starts getting generated every 30 seconds on the "TOTP" tab.
+The Base32 encoded "Secret" value is required to be typed in or copied from the text representation of the standard QR code's "secret" value. The 6 digit code starts getting generated every 30 seconds on the "TOTP" tab.
 
