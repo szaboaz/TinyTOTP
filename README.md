@@ -1,6 +1,6 @@
 # TinyTOTP
 
-TinyTOTP is a small Java application for generating TOTPs (Time-Based One-Time Password) on a PC.
+TinyTOTP is a small Java application for generating TOTPs (Time-Based One-Time Password) on Windows.
 
 <img width="341" alt="TinyTOTP_TOTP_tab" src="https://user-images.githubusercontent.com/23156196/138569217-5880c9b1-cf21-43af-ab95-c12800337963.png">
 
