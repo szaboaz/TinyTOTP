@@ -39,5 +39,5 @@ Accurate (synchronized) system clock is necessary for proper password generation
 This program makes no effort to protect or hide the secret code. It gets saved in plain text in the TinyTOTP.txt file with the other configuration elements.
 
 ## Credits
-The password generating code is from: <a href=\"https://tools.ietf.org/html/rfc6238#page-9\">https://tools.ietf.org/html/rfc6238#page-9</a>.
+The password generating code is from: https://tools.ietf.org/html/rfc6238#page-9.
 The program uses the Apache commons-codec-1.15.jar for Base32/Hex conversion, and it is included in the TinyTOTP.jar.
